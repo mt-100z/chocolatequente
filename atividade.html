@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Receita de Chocolate Quente</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #EAD7C0;
+            color: #4A3023;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .titulo-principal {
+            text-align: center;
+            color: #5C351F;
+            font-size: 42px;
+            margin: 35px 0 25px 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-decoration: underline;
+            text-decoration-color: #D97824;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 10px;
+
+        }
+
+        .imagem-principal {
+            text-align: center;
+            border: none !important;
+            margin: 20px auto;
+            padding: 0;
+        }
+
+        .imagem-principal img {
+            width: 40%;
+            max-width: 400px;
+            min-width: 250px;
+            transition: 0.3s ease;
+            filter: drop-shadow(0 8px 10px rgba(74, 48, 35, 0.20));
+        }
+
+        .imagem-principal img:hover {
+            transform: scale(1.05);
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #B88968;
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .col-md {
+            border: 2px solid #B88968;
+            border-radius: 18px;
+            padding: 25px;
+            margin: 10px;
+            background-color: #F8EDE1;
+            box-shadow: 0 6px 15px rgba(74, 48, 35, 0.15);
+            transition: 0.3s ease;
+        }
+
+        .col-md:hover {
+            transform: translateY(-5px);
+            border-color: #D97824;
+            box-shadow: 0 10px 22px rgba(74, 48, 35, 0.22);
+        }
+
+        .col-md h2 {
+            text-align: center;
+            color: #6B3E26;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-decoration: underline;
+            text-decoration-color: #D97824;
+            text-decoration-thickness: 3px;
+            text-underline-offset: 7px;
+        }
+
+        .col-md p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #4A3023;
+            text-align: left;
+        }
+
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(-15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .titulo-principal {
+                font-size: 32px;
+            }
+
+            .imagem-principal img {
+                width: 70%;
+            }
+
+            .col-md {
+                margin: 10px 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="titulo-principal">
+        Receita de Chocolate Quente
+    </h1>
+
+    <div class="imagem-principal">
+        <img src="chocolatebonito.png" alt="Chocolate quente">
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md">
+
+                <h2>Ingredientes</h2>
+
+                <p>
+                    500 ml de leite
+                    <br><br>
+                    4 colheres de sopa de chocolate em pó
+                    <br><br>
+                    2 colheres de sopa de açúcar
+                    <br><br>
+                    1 colher de sopa de amido de milho
+                    <br><br>
+                    100 g de chocolate meio amargo picado
+                    <br><br>
+                    1/2 caixinha de creme de leite
+                </p>
+
+            </div>
+
+            <div class="col-md">
+
+                <h2>Modo de Preparo</h2>
+
+                <p>
+                    Em uma panela, misture o leite, o chocolate em pó,
+                    o açúcar e o amido de milho.
+                    <br><br>
+                    Leve ao fogo médio, mexendo sempre para não formar grumos.
+                    <br><br>
+                    Quando começar a engrossar, acrescente o chocolate
+                    meio amargo picado.
+                    <br><br>
+                    Continue mexendo até o chocolate derreter completamente
+                    e a mistura ficar bem cremosa.
+                    <br><br>
+                    Desligue o fogo e misture o creme de leite.
+                    <br><br>
+                    Sirva imediatamente em uma caneca.
+                </p>
+
+            </div>
+
+            <div class="col-md">
+
+                <h2>Dicas</h2>
+
+                <p>
+                    Para deixar ainda mais gostoso, você pode colocar
+                    chantilly por cima e finalizar com raspas de chocolate
+                    ou canela.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
